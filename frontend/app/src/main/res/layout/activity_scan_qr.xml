@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"/>
+
+    <!-- Scanner Frame -->
+    <FrameLayout
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:background="@drawable/qr_frame"/>
+
+    <!-- Instruction Text -->
+    <TextView
+        android:id="@+id/txtInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Align QR code within the frame"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="120dp"/>
+
+    <!-- Flash Button -->
+    <ImageButton
+        android:id="@+id/btnFlash"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@android:drawable/ic_menu_camera"
+        android:background="#AAFFFFFF"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="40dp"/>
+
+</FrameLayout>

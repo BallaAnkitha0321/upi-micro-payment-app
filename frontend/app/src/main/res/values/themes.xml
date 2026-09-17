@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ========================= -->
+    <!-- Base Application Theme    -->
+    <!-- ========================= -->
+    <style name="Base.Theme.UpiMicroPay" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary branding color -->
+        <item name="colorPrimary">@color/primaryGreen</item>
+
+        <!-- Secondary accent color -->
+        <item name="colorSecondary">@color/lightGreen</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/primaryGreen</item>
+
+    </style>
+
+
+    <!-- ========================= -->
+    <!-- Main App Theme            -->
+    <!-- ========================= -->
+    <style name="Theme.UpiMicroPay" parent="Base.Theme.UpiMicroPay" />
+
+
+    <!-- ========================= -->
+    <!-- Splash Screen Theme       -->
+    <!-- ========================= -->
+    <style name="Theme.UpiMicroPay.Splash" parent="Theme.SplashScreen">
+
+        <!-- Splash screen background -->
+        <item name="windowSplashScreenBackground">@color/primaryGreen</item>
+
+        <!-- Your app logo -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/nidhipay_logo</item>
+
+        <!-- Optional white circle background for logo -->
+        <item name="windowSplashScreenIconBackgroundColor">@android:color/white</item>
+
+        <!-- After splash switch to main theme -->
+        <item name="postSplashScreenTheme">@style/Theme.UpiMicroPay</item>
+
+    </style>
+
+    <!-- OTP Box Style -->
+    <style name="OtpBox">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/otp_box_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:textColor">#1A1C1E</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+</resources>

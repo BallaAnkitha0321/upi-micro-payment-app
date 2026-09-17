@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">NidhiPay</string>
+    <string name="welcome_back">Welcome</string>
+    <string name="login_subtitle">Enter your mobile number to get started</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="terms_and_conditions">By continuing, you agree to our Terms and Conditions</string>
+
+    <string name="merchant_registration">Merchant Registration</string>
+    <string name="merchant_subtitle">Register your business to start accepting payments</string>
+    <string name="merchant_name">Merchant Name</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="register_merchant">Register Merchant</string>
+
+    <string name="merchant_management">Merchant Management</string>
+    <string name="merchant_id">Merchant ID</string>
+    <string name="block_merchant">Block Merchant Account</string>
+    <string name="unblock_merchant">Unblock Merchant Account</string>
+    <string name="action_center">Action Center</string>
+    <string name="management_subtitle">Search and manage merchant account status</string>
+    <string name="quick_info">Quick Info</string>
+    <string name="management_info_text">Blocking a merchant will immediately restrict their access to the platform and disable all transaction capabilities.</string>
+
+    <string name="otp_verification">OTP Verification</string>
+    <string name="otp_subtitle">Enter the 6-digit code sent to your mobile number</string>
+    <string name="otp_code_hint">OTP Code</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="resend_otp">Didn\'t receive code? Resend OTP</string>
+
+    <string name="merchant_qr_code">Merchant QR Code</string>
+    <string name="qr_subtitle">Scan this QR code to make a payment</string>
+    <string name="download_qr">Download QR</string>
+    <string name="share_qr">Share QR</string>
+    <string name="secure_payment_footer">NidhiPay Secure Payment</string>
+
+    <string name="payment_qr_title">Payment QR Code</string>
+    <string name="payment_qr_subtitle">Show this QR to the merchant to pay</string>
+    <string name="close">Close</string>
+
+    <string name="complete_registration">Complete Registration</string>
+    <string name="registration_subtitle">Just one more step to get started</string>
+    <string name="full_name">Full Name</string>
+    <string name="register">Register</string>
+
+    <string name="select_role">Select Your Role</string>
+    <string name="role_selection_subtitle">How would you like to use NidhiPay?</string>
+    <string name="register_as_user">Register as User</string>
+    <string name="register_as_merchant">Register as Merchant</string>
+    <string name="user_role_description">Pay and track your micro transactions</string>
+    <string name="merchant_role_description">Accept micro payments for your business</string>
+
+    <string name="user_dashboard">User Dashboard</string>
+    <string name="recent_transactions">Recent Activity</string>
+    <string name="merchant_upi_hint">Merchant UPI ID</string>
+    <string name="amount">Amount</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="logout">Logout</string>
+    <string name="no_transactions">No transactions yet</string>
+    <string name="quick_pay">Transfer Money</string>
+    <string name="hello_user">Good morning,</string>
+    <string name="view_all">View All</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="pay_securely">Pay Securely</string>
+    <string name="wallet_balance">Wallet Balance</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="send_to_upi">To UPI ID</string>
+    <string name="self_transfer">Self Transfer</string>
+    <string name="check_bank_balance">Check Balance</string>
+    <string name="welcome_user">Welcome, %1$s</string>
+    <string name="kyc_limit_warning">Complete KYC to increase transaction limits</string>
+    <string name="to_bank">To Bank</string>
+    <string name="secure_encrypted_msg">Your transactions are safe and encrypted.</string>
+    <string name="payments_transfers">Payments &amp; Transfers</string>
+    <string name="account_balance_label">ACCOUNT BALANCE</string>
+    <string name="scan_and_pay">Scan and Pay</string>
+
+    <string name="fraud_detected">FRAUD DETECTED</string>
+    <string name="txn_id_label">Transaction ID</string>
+    <string name="user_id_label">User ID</string>
+    <string name="merchant_id_label">Merchant ID</string>
+    <string name="reason_for_alert">Reason for Alert</string>
+    <string name="risk_score_label">Risk Score: %1$d</string>
+
+    <string name="merchant_profile">Merchant Profile</string>
+    <string name="business_information">Business Information</string>
+    <string name="bank_details">Bank Details</string>
+    <string name="kyc_information">KYC Information</string>
+    <string name="edit">Edit</string>
+    <string name="link_bank_account">Link Bank Account</string>
+    <string name="complete_kyc">Complete KYC</string>
+
+    <string name="total_earnings">Total Earnings</string>
+    <string name="todays_sales">Today\'s Sales</string>
+    <string name="account_status">Account Status</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="link_now">LINK NOW</string>
+    <string name="verify">VERIFY</string>
+
+    <!-- Merchant Dashboard Correct Names -->
+    <string name="menu_store_qr">My QR</string>
+    <string name="menu_collect">Collect</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Account Screen Strings -->
+    <string name="not_set">Not Set</string>
+    <string name="linked">Linked</string>
+    <string name="not_linked">Not Linked</string>
+    <string name="link_your_account">Link your account</string>
+    <string name="ifsc_format">IFSC: %1$s</string>
+    <string name="ifsc_empty">IFSC: --</string>
+    <string name="under_review">Under Review</string>
+    <string name="verified">Verified</string>
+    <string name="rejected">Rejected</string>
+    <string name="not_started">Not Started</string>
+    <string name="not_submitted">Not Submitted</string>
+    <string name="verification_documents">Verification Documents</string>
+    <string name="submit_verification">Submit Verification</string>
+    <string name="submitting">Submitting&#8230;</string>
+    <string name="aadhaar_number">Aadhaar Number</string>
+    <string name="pan_number">PAN Number</string>
+    <string name="business_category">Business Category</string>
+    <string name="business_address">Business Address</string>
+    <string name="payments_active">Payments Active</string>
+    <string name="link_bank_to_receive_payments">Link bank to receive payments</string>
+    <string name="help_and_support">Help &amp; Support</string>
+
+    <!-- New KYC Strings -->
+    <string name="verify_your_identity">Verify your identity</string>
+    <string name="kyc_subtitle">Your details are secure and encrypted</string>
+
+    <string name="email">Email</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quick elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis AUGUE egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero JUSTO CONSECTETUR ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a JUSTO LUCTUS
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+</resources>

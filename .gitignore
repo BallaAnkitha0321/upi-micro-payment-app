@@ -35,3 +35,14 @@ build/
 # Environment variables / secrets
 .env
 src/main/resources/firebase-service-account.json
+
+# Android / Gradle
+frontend/.gradle/
+frontend/.kotlin/
+frontend/.idea/
+frontend/**/build/
+frontend/local.properties
+frontend/.externalNativeBuild/
+frontend/.cxx/
+frontend/captures/
+frontend/app/src/google-services.json

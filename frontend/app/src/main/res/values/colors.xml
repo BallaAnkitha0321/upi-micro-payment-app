@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===== PRIMARY THEME ===== -->
+    <color name="dashboardPrimary">#006847</color>
+    <color name="dashboardPrimaryDark">#004D35</color>
+    <color name="dashboardAccent">#10B981</color>
+
+    <!-- ===== ACTION BACKGROUNDS ===== -->
+    <color name="bgScanQR">#EBF7F0</color>
+    <color name="bgToUPI">#E8F0FE</color>
+    <color name="bgHistory">#F3E8FF</color>
+    <color name="bgToBank">#FFF7ED</color>
+
+    <!-- ===== SURFACE / UI ===== -->
+    <color name="surfaceBackground">#F8FAFC</color>
+    <color name="surfaceCard">#FFFFFF</color>
+    <color name="cardWhite">#FFFFFF</color>
+    <color name="backgroundGray">#F3F4F6</color>
+
+    <!-- ===== TEXT ===== -->
+    <color name="contentPrimary">#0F172A</color>
+    <color name="contentSecondary">#64748B</color>
+    <color name="textDark">#1E293B</color>
+    <color name="textLight">#94A3B8</color>
+
+    <!-- ===== BORDERS ===== -->
+    <color name="borderSubtle">#F1F5F9</color>
+    <color name="dividerColor">#E2E8F0</color>
+
+    <!-- ===== SEMANTIC COLORS ===== -->
+    <color name="successGreen">#059669</color>
+    <color name="errorRed">#DC2626</color>
+    <color name="warningOrange">#D97706</color>
+
+    <!-- ===== EXTRA (COMPATIBILITY) ===== -->
+    <color name="primaryGreen">#006847</color>
+    <color name="primaryLight">#4CAF50</color>
+    <color name="primaryDark">#004D35</color>
+    <color name="primaryBlue">#1D4ED8</color>
+
+    <color name="lightGreen">#81C784</color>
+    <color name="lightGray">#D1D5DB</color>
+    <color name="failedRed">#E53935</color>
+
+    <!-- ===== BASIC ===== -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>
