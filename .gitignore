@@ -46,3 +46,8 @@ frontend/.externalNativeBuild/
 frontend/.cxx/
 frontend/captures/
 frontend/app/src/google-services.json
+
+# Backend sensitive configuration
+backend/src/main/resources/firebase-service-account.json
+backend/src/main/resources/application-dev.yaml
+backend/src/main/resources/application-prod.yaml
