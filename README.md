@@ -538,7 +538,7 @@ This project provided practical experience with:
 
 This project was developed collaboratively by:
 
-* **Kavya Balla** — GitHub: `padminichoudhury0320`
+* **padminichoudhury0320** — GitHub: `padminichoudhury0320`
 * **BallaAnkitha0321** — GitHub: `BallaAnkitha0321`
 
 \---
