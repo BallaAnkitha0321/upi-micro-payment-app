@@ -37,17 +37,17 @@ build/
 src/main/resources/firebase-service-account.json
 
 # Android / Gradle
-frontend/.gradle/
-frontend/.kotlin/
-frontend/.idea/
-frontend/**/build/
-frontend/local.properties
-frontend/.externalNativeBuild/
-frontend/.cxx/
-frontend/captures/
-frontend/app/src/google-services.json
+android-app/.gradle/
+android-app/.kotlin/
+android-app/.idea/
+android-app/**/build/
+android-app/local.properties
+android-app/.externalNativeBuild/
+android-app/.cxx/
+android-app/captures/
+android-app/app/src/google-services.json
 
 # Backend sensitive configuration
-backend/src/main/resources/firebase-service-account.json
-backend/src/main/resources/application-dev.yaml
-backend/src/main/resources/application-prod.yaml
+spring-boot-api/src/main/resources/firebase-service-account.json
+spring-boot-api/src/main/resources/application-dev.yaml
+spring-boot-api/src/main/resources/application-prod.yaml
